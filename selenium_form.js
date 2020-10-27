@@ -7,7 +7,7 @@
 
         //     cy.get('[name="username"]').type('tomsmith');
         //     cy.get('[name="password"]').type('SuperSecretPassword!');
-        //     cy.get('[type="submit"] .fa.fa-2x.fa-sign-in').click();
+        //     cy.get('[type="submit"]').click();
 
         //     cy.get('div #flash.flash.success').contains('You logged into a secure area!').should('exist');
         // });
@@ -17,7 +17,7 @@
 
         //     cy.get('[name="username"]').type('tomsmith56');
         //     cy.get('[name="password"]').type('SuperSecretPassword!');
-        //     cy.get('[type="submit"] .fa.fa-2x.fa-sign-in').click();
+        //     cy.get('[type="submit"]').click();
 
         //     cy.get('.flash.error').contains('Your username is invalid!').should('exist');
         // });
@@ -27,9 +27,9 @@
 
         //     cy.get('[name="username"]').type('tomsmith');
         //     cy.get('[name="password"]').type('SuperSecretPassword!');
-        //     cy.get('[type="submit"] .fa.fa-2x.fa-sign-in').click();
+        //     cy.get('[type="submit"]').click();
 
-        //     cy.get('a.button.secondary.radius').click();
+        //     cy.get('a.button.radius').click();
 
-        //     cy.get('div #flash.flash.success').contains('You logged out of the secure area!').should('exist');
+        //     cy.get('.flash.success').contains('You logged out of the secure area!').should('exist');
         // });
